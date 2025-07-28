@@ -135,7 +135,11 @@
       </div>
 
       <div class="modal-body p-5 pt-0">
-        <form class="">
+        <form class="" action="mailto:model@intown.vip" method="post" enctype="text/plain">
+            <div class="form-floating mb-3">
+            <input type="text" class="form-control rounded-3" id="floatingInput" placeholder="Name">
+            <label for="floatingInput">Name</label>
+          </div>
           <div class="form-floating mb-3">
             <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
             <label for="floatingInput">Email address</label>
@@ -146,7 +150,7 @@
           </div>
           <button class="w-100 mb-2 btn btn-lg rounded-3 btn-info" type="submit">Submit Application</button>
           <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
-          <hr class="my-4">
+          <hr class="my-4">     
         </form>
       </div>
     </div>
@@ -161,7 +165,7 @@
         <nav class="fixed-bottom navbar-expand-sm navbar-dark bg-dark">
         </br>
           <div>
-            <button type="button" data-bs-toggle="modal" data-bs-target="#modalSignin"><h5>INTOWN MODELS</h5></button>
+            <button class="text-white bg-dark" type="button" data-bs-toggle="modal" data-bs-target="#modalSignin"><h5>INTOWN MODELS</h5></button>
           </div>
         </br>
         </nav>
